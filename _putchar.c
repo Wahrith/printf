@@ -1,9 +1,8 @@
-#include "main.h"
-
+#include <unistd.h>
 /**
- * _putchar - function to print char
- * @c: char being passed
- * Return: returning char
+ * _putchar - writes to standard output
+ * @c: printed char
+ * Return: 0 on success and -1 if error occurs
  */
 int _putchar(char c)
 {
